@@ -1,0 +1,180 @@
+﻿<html>
+	<head>
+		<title>Inicio</title>
+		<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+		<link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />	
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+				
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		
+		<link rel="shortcut icon" href="imagenes/favi.ico">
+	</head>
+	
+	<body  onLoad="bild1(), bild2(), bild3(), circu()">
+	<!-- <body onLoad="circu()">	 -->	
+	
+	<script type="text/javascript">
+	
+			function bild1(){
+			setTimeout("mostrarbild1()", 500);
+			}
+			
+			function bild2(){
+			setTimeout("mostrarbild2()", 1500);
+			}
+			
+			function bild3(){
+			setTimeout("mostrarbild3()", 2500);
+			}
+			
+			function circu(){
+			<!-- setTimeout("mostrarcircu()", 1000); -->
+			setTimeout("mostrarcircu()", 3500);
+			}
+			
+			
+			var x;
+			x=$(document);
+			x.ready(inicializar);
+			
+						
+			function inicializar ()	{
+			
+				var x;
+				x=$("#privpie");
+				x.click(mostrarPriv);
+										
+			}
+					function mostrarbild1(){
+						var x;
+						x=$("#imgind1");
+						x.fadeIn(1000);
+						
+						var x;
+						x=$("#imgind1");
+						x.fadeOut(1000);
+					}
+					
+					function mostrarbild2(){
+						var x;
+						x=$("#imgind2");
+						x.fadeIn(1000);
+						
+						var x;
+						x=$("#imgind2");
+						x.fadeOut(1000);
+					}
+					
+					function mostrarbild3(){
+						var x;
+						x=$("#imgind3");
+						x.fadeIn(1000);
+						
+						var x;
+						x=$("#imgind3");
+						x.fadeOut(1000);
+					}
+					
+					function mostrarcircu(){
+						var x;
+						x=$("#menuind");
+						x.fadeIn(2000);
+						
+						var x;
+						x=$("#textind1");
+						x.effect("slide", 1500);
+						
+						
+						var x;
+						x=$("#textind2");
+						x.effect("slide", 2000);
+						
+												
+					}
+					
+					function mostrarPriv(){
+						var x;
+						x=$("#textoprivacidad");
+						x.dialog({modal:true, "title":"Política de privacidad y Aviso legal", "width": "800px", "height": "auto"});
+					}
+			
+	</script>
+	
+		<div id="contenedor">
+			<div id="cabecera">
+				<div id="cabecera2">
+					<div id="logo">
+						<a href="index.html"><img src="imagenes/logored.png"></img></a>
+					</div>
+					<div id="titulo">Deutsch als Fremdsprache</div>
+					<div id="botones">
+						 <ul class="navegacion">
+												
+							<li><a href="a2.html">A. 2</a></li>
+							
+																			
+							<li><a href="b1.html">B. 1</a></li>
+							
+							<li><a href="b2.html">B. 2</a></li>
+							
+						</ul>
+						<div id="barra1">|</div>
+						<div id="barra2">|</div>
+						
+						
+					</div>
+					
+					<div id="fb"><a href="https://www.facebook.com/dw.german?nr" target="_blank"><img src="imagenes/fb.png" title="Facebook Deutsche Welle"></a></div>
+					<div id="tw"><a href="https://twitter.com/DeutscheWelle" target="_blank"><img src="imagenes/tw.png" title="Twitter Deutsche Welle"></a></div>
+					<div id="yt"><a href="https://www.youtube.com/dwdeutsch" target="_blank"><img src="imagenes/yt.png" title="YouTube Deutsche Welle"></a></div>
+					
+					
+				</div>
+			</div>
+			
+			<div id="contenido">
+				<div id="imagenesind">
+					
+					<img src="imagenes/bild1.jpg" alt="Berlin" title="Berlin" class="imgind" id="imgind1"></img>
+					<img src="imagenes/bild2.jpg" alt="Castillo De Neuschwanstein" title="Castillo De Neuschwanstein" class="imgind" id="imgind2"></img>
+					<img src="imagenes/bild3.jpg" alt="Frankfurt" title="Frankfurt" class="imgind" id="imgind3"></img>
+				</div>	
+					<div id="menuind">
+						<div id="present"><img src="imagenes/bild4.jpg" alt="Dresden" title="Dresden"></div>
+						<div id="textind1">Willkommen</div>
+						<div id="textind2">Bienvenido</div>
+												
+						<a href="a2.html"><div id="menua2"><span class="ubungen">A. 2</span></div></a>
+						<a href="b1.html"><div id="menub1"><span class="ubungen">B. 1</span></div></a>
+						<a href="b2.html"><div id="menub2"><span class="ubungen">B. 2</span></div></a>
+						<div id="menuprueba">
+						<span id="pruf1">¿Quieres saber cuál es tu nivel?</span>
+						<div id="einstu"><a href="nprueba.html"><span id="pruf2">Einstufungstest</span>
+						<img src="imagenes/logoeinstu.png" id="logein" style="width: 110px;"></img></a></div>
+						</div>
+						
+					</div>
+											
+					
+				
+			</div>
+			
+			<div id="pie">
+				<div id="pieazul">
+				<div id="logo2">
+						<img src="imagenes/logocua.png" style="width: 50px; height: 50px;"></img>
+				</div>
+					<p id="titpie">Deutsch als Fremdsprache | 2015</p>
+					<a href="contacto.php"><span id="contacto">Contacto</span></a>
+					<span id="privpie">Política de privacidad y Aviso legal</span>
+					<div id="textoprivacidad">
+						textopdp 
+					</div>
+				</div>	
+			</div>
+			
+		</div>
+	</body>
+</html>

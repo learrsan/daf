@@ -1,0 +1,522 @@
+﻿<html>
+	<head>
+		<title>Prueba de nivel</title>
+		<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+		<link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />	
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+				
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		
+		<link rel="shortcut icon" href="imagenes/favi.ico">
+	</head>
+	
+	<body>
+	
+	<script type="text/javascript">
+	
+	
+					
+			var x;
+			x=$(document);
+			x.ready(inicializar);
+			
+						
+			function inicializar ()	{
+				
+				var x;
+				x=$("#empezarp");
+				x.click(empezarPrueba);
+				
+				var x;
+				x=$("#fi_1a0");
+				x.click(volver0);
+				
+				var x;
+				x=$("#fd_1a2");
+				x.click(ir2);
+				
+				var x;
+				x=$("#fi_2a1");
+				x.click(volver1);
+				
+				var x;
+				x=$("#fd_2a3");
+				x.click(ir3);
+				
+				var x;
+				x=$("#fi_3a2");
+				x.click(volver2);
+				
+				var x;
+				x=$("#fd_3a4");
+				x.click(ir4);
+				
+				var x;
+				x=$("#fi_4a3");
+				x.click(volver3);
+				
+				var x;
+				x=$("#fd_4a5");
+				x.click(ir5);
+				
+				var x;
+				x=$("#fi_5a4");
+				x.click(volver4);
+				
+				/*var x;
+				x=$("#fd_5a6");
+				x.click(ir6);*/
+				
+				var x;
+				x=$("#fi_6a5");
+				x.click(volver5);
+				
+				var x;
+				x=$("#fd_6a7");
+				x.click(ir7);
+				
+				var x;
+				x=$("#fi_7a6");
+				x.click(volver6);
+				
+				
+				
+				var x;
+				x=$("#privpie");
+				x.click(mostrarPriv);
+										
+			}
+					function empezarPrueba(){
+						document.getElementById("pnivelp").style.display="none";
+						document.getElementById("pnivel1").style.display="block";
+						
+					}
+					function volver0(){
+						document.getElementById("pnivelp").style.display="block";
+						document.getElementById("pnivel1").style.display="none";
+						
+					}
+					function ir2(){
+						document.getElementById("pnivel2").style.display="block";
+						document.getElementById("pnivel1").style.display="none";
+						
+					}
+					function volver1(){
+						document.getElementById("pnivel1").style.display="block";
+						document.getElementById("pnivel2").style.display="none";
+						
+					}
+					function ir3(){
+						document.getElementById("pnivel2").style.display="none";
+						document.getElementById("pnivel3").style.display="block";
+						
+					}
+					function volver2(){
+						document.getElementById("pnivel3").style.display="none";
+						document.getElementById("pnivel2").style.display="block";
+						
+					}
+					function ir4(){
+						document.getElementById("pnivel4").style.display="block";
+						document.getElementById("pnivel3").style.display="none";
+						
+					}
+					function volver3(){
+						document.getElementById("pnivel4").style.display="none";
+						document.getElementById("pnivel3").style.display="block";
+						
+					}
+					function ir5(){
+						document.getElementById("pnivel4").style.display="none";
+						document.getElementById("pnivel5").style.display="block";
+						
+					}
+					function volver4(){
+						document.getElementById("pnivel4").style.display="block";
+						document.getElementById("pnivel5").style.display="none";
+						
+					}
+					/*function ir6(){
+						document.getElementById("pnivel6").style.display="block";
+						document.getElementById("pnivel5").style.display="none";
+						
+					}*/
+					function volver5(){
+						document.getElementById("pnivel5").style.display="block";
+						document.getElementById("pnivel6").style.display="none";
+						
+					}
+					function ir7(){
+						document.getElementById("pnivel6").style.display="none";
+						document.getElementById("pnivel7").style.display="block";
+					}
+					
+					function volver6(){
+						document.getElementById("pnivel6").style.display="block";
+						document.getElementById("pnivel7").style.display="none";
+					}
+					
+					
+					function examinarA2(){
+						
+						var a2a = parseInt(document.getElementById("a2a").value);
+						var a2b = parseInt(document.getElementById("a2b").value);
+						var a2c = parseInt(document.getElementById("a2c").value);
+						var a2d = parseInt(document.getElementById("a2d").value);
+						var a2e = parseInt(document.getElementById("a2e").value);
+						var a2f = parseInt(document.getElementById("a2f").value);
+						var a2g = parseInt(document.getElementById("a2g").value);
+						var a2h = parseInt(document.getElementById("a2h").value);
+						var a2i = parseInt(document.getElementById("a2i").value);
+						var a2j = parseInt(document.getElementById("a2j").value);
+						var a2k = parseInt(document.getElementById("a2k").value);
+						var a2l = parseInt(document.getElementById("a2l").value);
+						var a2m = parseInt(document.getElementById("a2m").value);
+						var a2n = parseInt(document.getElementById("a2n").value);
+						
+						<!-- var totalA2 = a2a + a2b + a2c + a2d + a2e + a2f + a2g + a2h + a2i + a2j + a2k + a2l + a2m + a2n; -->
+						
+					
+					
+							if ((a2a + a2b + a2c + a2d + a2e + a2f + a2g + a2h + a2i + a2j + a2k + a2l + a2m + a2n) <= 7){
+								
+								 var x = $("#dialoa2").dialog({modal:true, "title":"Resultado de la prueba de nivel", "width": "800px", "height": "auto"});
+															
+								
+							}
+							else{
+								document.getElementById("pnivel6").style.display="block";
+								document.getElementById("pnivel5").style.display="none";
+													
+							}
+						
+					}
+					
+										
+					function mostrarPriv(){
+						var x;
+						x=$("#textoprivacidad");
+						x.dialog({modal:true, "title":"Política de privacidad y Aviso Legal", "width": "800px", "height": "auto"});
+					}
+			
+	</script>
+	
+		<div id="contenedor">
+			<div id="cabecera">
+				<div id="cabecera2">
+					<div id="logo">
+						<a href="index.html"><img src="imagenes/logored.png"></img></a>
+					</div>
+					<div id="titulo">Deutsch als Fremdsprache</div>
+					<div id="botones">
+						 <ul class="navegacion">
+												
+							<li><a href="a2.html">A. 2</a></li>
+							
+						
+													
+							<li><a href="b1.html">B. 1</a></li>
+							
+							<li><a href="b2.html">B. 2</a></li>
+							
+						</ul>
+						<div id="barra1">|</div>
+						<div id="barra2">|</div>
+						
+						
+					</div>
+					
+					<div id="fb"><a href="https://www.facebook.com/dw.german?nr" target="_blank"><img src="imagenes/fb.png" title="Facebook Deutsche Welle"></a></div>
+					<div id="tw"><a href="https://twitter.com/DeutscheWelle" target="_blank"><img src="imagenes/tw.png" title="Twitter Deutsche Welle"></a></div>
+					<div id="yt"><a href="https://www.youtube.com/dwdeutsch" target="_blank"><img src="imagenes/yt.png" title="YouTube Deutsche Welle"></a></div>
+					
+					
+				</div>
+			</div>
+			
+			<div id="contenido">
+			<div id="pruebanivel">
+			
+				<div id="pnivelp">
+					<div><img src="imagenes/bild5.jpg" alt="Colonia" title="Colonia" id="imgpnivel" style="width: 1000px; height: 690px; opacity: 0.2; margin-top: -200px;"></img></div>
+					
+					<div id="pnivel">
+										
+					<h1>A continuación aparecerán una serie de ejercicios de tres tipos: </br><br/>Comprensión de lectura<br/>Comprensión oral</br>Gramática</br></br> En función de tus resultados se te dará un nivel aproximado.</h1>
+					
+					<div class="btnpnivel" id="empezarp">Empezar</div>
+					
+					</div>
+					
+				</div>
+<!-- A1	 -->			
+				<div id="pnivel1">
+					<div class="flechaizda" id="fi_1a0"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Lesen Sie den Text</h1>
+						<p>In Deutschland gibt es etwa eine Million Menschen, die aus verschiedenen Gründen nicht richtig sprechen können. Ohne die richtige Therapie haben es diese Menschen oft schwer. Sie finden weniger Freunde und oft auch keinen tollen Beruf. Sie brauchen Hilfe.</p>
+						<p>Zum Beispiel Nadine. Einmal pro Woche übt das Mädchen mit der Logopädin. Ein Arzt hat Nadine zum Sprechtraining geschickt, weil sie viel schlechter spricht als die anderen Kinder in ihrer Klasse. Karin Nowak weiß: „Immer mehr Kinder haben Probleme beim Sprechen." Der Grund? Die Logopädin hat eine Theorie: „In vielen Familien wird immer weniger miteinander gesprochen und die Kinder sitzen stundenlang vor dem Fernseher oder dem Computer."</p>
+						<p>Wer zu Karin kommt, soll sich wohl fühlen. Deshalb ist ihre Praxis hell und gemütlich. Es gibt bunte Spielzeuge und Handpuppen. In der Mitte sitzen Karin und Nadine und machen Fitnesstraining für Lippen, Zunge und Stimmbänder. Die beiden üben vor einem Spiegel. Das sieht ziemlich komisch aus, aber es hilft Nadine, ihren Sprechapparat richtig zu gebrauchen.</p>
+					</div>
+					
+					<div class="flechadcha" id="fd_1a2"><img src="imagenes/flechade.png"></div>
+				</div>
+				
+				<div id="pnivel2">
+					<div class="flechaizda" id="fi_2a1"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Welche Aussage ist richtig? Nur eine Aussage ist richtig</h1>
+						<div id="preg">
+						<p>Menschen mit Sprachproblemen</p>
+						<select class="seclec" id="a2a">
+							<option value=0></option>
+							<option value=0>finden Hilfe in der Familie.</option>
+							<option value=0>haben keine Freunde.</option>
+							<option value=1>haben Schwierigkeiten bei der Arbeitssuche.</option>
+						</select><br/><br/><br/>
+						<p>Nadine</p>
+						<select class="seclec" id="a2b">
+							<option value=0></option>
+							<option value=0>geht einmal in der Woche zum Arzt.</option>
+							<option value=1>geht einmal pro Woche zum Sprechtraining.</option>
+							<option value=0>spricht in der Schule nicht.</option>
+						</select><br/><br/><br/>
+						<p>Nadine und Karin</p>
+						<select class="seclec" id="a2c">
+							<option value=0></option>
+							<option value=0>lachen viel miteinander.</option>
+							<option value=0>machen sich vor dem Spiegel schön.</option>
+							<option value=1>trainieren den Sprechapparat.</option>
+						</select>
+						</div>
+					</div>
+					
+					<div class="flechadcha" id="fd_2a3"><img src="imagenes/flechade.png"></div>
+				</div>
+				
+				<div id="pnivel3">
+					<div class="flechaizda" id="fi_3a2"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Sie hören einige kurze Nachrichten. Suchen Sie zu jeder Nachricht die passende Überschrift. Zu jeder Nachricht passt nur eine Überschrift.</h1>
+						<div id="preg3">
+						<audio controls>
+							<source src="sonidos/1a2.mp3" type="audio/mpeg">
+						</audio>
+						<select class="seclec" id="a2d">
+							<option value=0></option>
+							<option value=0>Elefanten suchen neuen Job</option>
+							<option value=0>Filmfestival für Kinder</option>
+							<option value=0>Kalte Nacht, aber warmer Nachmittag</option>
+							<option value=1>Neues Leben im Zoo</option>
+							<option value=0>Preis für das beste Computerspiel</option>
+							<option value=0>Warme Herbsttemperaturen</option>
+							
+						</select><br/><br/><br/>
+						<audio controls>
+							<source src="sonidos/2a2.mp3" type="audio/mpeg">
+						</audio>
+						<select class="seclec" id="a2e">
+							<option value=0></option>
+							<option value=0>Elefanten suchen neuen Job</option>
+							<option value=0>Filmfestival für Kinder</option>
+							<option value=0>Kalte Nacht, aber warmer Nachmittag</option>
+							<option value=0>Neues Leben im Zoo</option>
+							<option value=0>Preis für das beste Computerspiel</option>
+							<option value=0>Warme Herbsttemperaturen</option>
+						</select><br/><br/><br/>
+						<audio controls>
+							<source src="sonidos/3a2.mp3" type="audio/mpeg">
+						</audio>
+						<select class="seclec" id="a2f">
+							<option value=0></option>
+							<option value=0>Elefanten suchen neuen Job</option>
+							<option value=0>Filmfestival für Kinder</option>
+							<option value=0>Kalte Nacht, aber warmer Nachmittag</option>
+							<option value=0>Neues Leben im Zoo</option>
+							<option value=0>Preis für das beste Computerspiel</option>
+							<option value=1>Warme Herbsttemperaturen</option>
+						</select>
+						</div>
+					</div>
+					
+					<div class="flechadcha" id="fd_3a4"><img src="imagenes/flechade.png"></div>
+				</div>
+				
+				<div id="pnivel4">
+					<div class="flechaizda" id="fi_4a3"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Wählen Sie die richtige Lösung aus</h1>
+						<div id="preg4">
+							<p>Ich lerne Deutsch, weil</p>
+							<select class="seclec" id="a2g">
+							<option value=0></option>
+							<option value=0>in Deutschland ich will arbeiten.</option>
+							<option value=0>ich will in Deutschland arbeiten.</option>
+							<option value=0>arbeiten ich in Deutschland will.</option>
+							<option value=1>ich in Deutschland arbeiten will.</option>
+											
+						</select><br/><br/>
+						<p>Ich glaube, dass</p>
+							<select class="seclec" id="a2h">
+							<option value=0></option>
+							<option value=0>deine Schwester ist sehr nett.</option>
+							<option value=1>deine Schwester sehr nett ist.</option>
+							<option value=0>sehr nett deine Schwester ist.</option>
+							<option value=0>ist deine Schwester sehr nett.</option>
+											
+						</select><br/><br/>
+						
+						<p>Ich lese gerne Bücher, denn</p>
+							<select class="seclec" id="a2i">
+							<option value=0></option>
+							<option value=1>ich interessiere mich für Geschichten.</option>
+							<option value=0>ich für Geschichten mich interessiere.</option>
+							<option value=0>für Geschichten ich interessiere mich.</option>
+							<option value=0>ich mich für Geschichten interessiere.</option>
+											
+						</select><br/><br/>
+						
+						<p>Als ich ein Kind war,</p>
+							<select class="seclec" id="a2j">
+							<option value=0></option>
+							<option value=1>wollte ich einen Hund.</option>
+							<option value=0>ich einen Hund wollte.</option>
+							<option value=0>einen Hund wollte ich.</option>
+							<option value=0>einen Hund ich wollte.</option>
+											
+						</select><br/><br/>
+						</div>
+					</div>
+					
+					<div class="flechadcha" id="fd_4a5"><img src="imagenes/flechade.png"></div>
+				</div>
+				
+				<div id="pnivel5">
+					<div class="flechaizda" id="fi_5a4"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Wählen Sie die richtige Lösung aus</h1>
+						<div id="preg4">
+							
+							<p>Er ist Peter, </p>
+							<select class="seclec" id="a2k">
+							<option value=0></option>
+							<option value=0>der auf einer lustigen Party ich kennen gelernt habe.</option>
+							<option value=0>den auf eine lustige Party ich kennen lernen habe.</option>
+							<option value=1>den auf einer lustigen Party ich kennen gelernt habe.</option>
+							<option value=0>der auf eine lustige Party ich kennen gelernt habe.</option>
+							</select><br/><br/>
+							
+							<p>Eine Biologin ist eine Frau, </p>
+							<select class="seclec"id="a2l">
+							<option value=0></option>
+							<option value=1>die die Tiere studiert.</option>
+							<option value=0>die Tiere die studiert.</option>
+							<option value=0>die studiert die Tiere.</option>
+							</select><br/><br/>
+						
+							<p>Der Mont Blanc (4807 m) ist</p>
+							<select class="seclec" id="a2m">
+							<option value=0></option>
+							<option value=1>höher als das Matterhorn (4478 m).</option>
+							<option value=0>höchste als das Matterhorn (4478 m).</option>
+							<option value=0>höcher als das Matterhorn (4478 m).</option>
+							</select><br/><br/>
+						
+							<p>Ich möchte wissen, wer ist die Frau</p>
+							<select class="seclec" id="a2n">
+							<option value=0></option>
+							<option value=0>mit die rote Rock?</option>
+							<option value=0>mit der roten Rock?</option>
+							<option value=0>mit dem rot Rock?</option>
+							<option value=1>mit dem roten Rock?</option>
+							</select><br/><br/>
+						
+						</div>
+					</div>
+					
+					<div class="flechadcha" id="fd_5a6"><img src="imagenes/flechade.png" onClick="examinarA2()"></div>
+				</div>
+<!-- B2	 -->				
+				<div id="pnivel6">
+					<div class="flechaizda" id="fi_6a5"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Lesen Sie den Text</h1>
+						<div id="b1lec">
+							<p>Die Sonne scheint durch die Fenster des Altbaus. Chromglänzende Stühle stehen auf dem
+							Holzfußboden. An den Wänden hängen Acrylbilder in Rot und Lila - und das Bild von einem
+							dicken braunen Pferd. Nicole Lübbe, 30 Jahre alt und Geschäftsführerin einer Kölner Firma für
+							Werbung, nimmt das Bild, das ihre Tochter gemalt hat, in die Hand. Eigentlich könnte sie
+							zufrieden lächeln, sie hat ihre Sophie und einen interessanten Beruf. Aber sie hat seit neun
+							Jahren ein Riesenproblem: sie ist alleinerziehend.</p>
+							<p>Ihre Tochter war vier Monate alt, als ihre damalige Beziehung auseinanderging. Seitdem
+							bemüht sich Nicole Lübbe allein mit Sophie voranzukommen. Es ist ein Kampf um die
+							Betreuung ihrer Tochter, ein Kampf auch mit Kindergärten, die schon um 16 Uhr schließen, mit
+							Aupair-Mädchen, die von heute auf morgen ihren Job verlassen und mit Schulen, die Kinder
+							einfach nach Hause schicken, wenn eine Lehrerin krank ist. Es ist ein Kampf auch mit Chefs,
+							die Mitarbeiter gern bis abends um acht am Schreibtisch sehen oder diese ohne Ankündigung
+							auf Dienstreise schicken, auch wenn zu Hause ein Kind wartet. Es ist die ständige Sorge, sich
+							irgendwie Zeit zu nehmen für Sophie, für ein gemeinsames Abendbrot, für eine Stunde
+							Kuscheln und Erzählen. Und stets ein schlechtes Gewissen, weil immer etwas zu kurz kommt.
+							Als Nicole Lübbe anfing, in der Werbebranche zu arbeiten, ist sie in den ersten Jahren vor
+							lauter Stress mehrmals zusammengebrochen. Sie überlegte dann eine Zeit lang Deutschland
+							zu verlassen, weil die Situation für Alleinerziehende in ihrer Heimat so schwierig ist.</p>
+						</div>
+					</div>
+					
+					<div class="flechadcha" id="fd_6a7"><img src="imagenes/flechade.png"></div>
+				</div>
+				
+				<div id="pnivel7">
+					<div class="flechaizda" id="fi_7a6"><img src="imagenes/flechaiz.png"></div>
+					<div id="a1lec">
+						<h1>Welche Aussage ist richtig? Nur eine Aussage ist richtig</h1>
+						<div id="preg">
+						<p>Die alleinerziehende Mutter Nicole Lübbe</p>
+						<select class="seclec" id="a2a">
+							<option value=0></option>
+							<option value=0>hat endlich eine eigene Werbefirma.</option>
+							<option value=0>kann heutzutage wieder lachen.</option>
+							<option value=1>wohnt seit neun Jahren allein mit ihrer Tochter.</option>
+						</select><br/><br/><br/>
+						<p>Seit Nicole Lübbe sich von ihrem Mann getrennt hat,</p>
+						<select class="seclec" id="a2b">
+							<option value=0></option>
+							<option value=1>ist sie ständig unter Stress.</option>
+							<option value=0>nimmt sie sich mehr Zeit für Sophie.</option>
+							<option value=0>reist sie oft mit ihrer Tochter.</option>
+						</select><br/><br/><br/>
+						
+						</div>
+					</div>
+					
+					<div class="flechadcha" id="fd_7a8"><img src="imagenes/flechade.png"></div>
+				</div>
+				
+			</div>		
+			</div>
+			
+			<div id="pie">
+				<div id="pieazul">
+				<div id="logo2">
+						<img src="imagenes/logocua.png" style="width: 50px; height: 50px;"></img>
+				</div>
+					<p id="titpie">Deutsch als Fremdsprache | 2015</p>
+					<a href="contacto.php"><span id="contacto">Contacto</span></a>
+					<span id="privpie">Política de privacidad y Aviso legal</span>
+					<div id="textoprivacidad">
+						textopdp 
+					</div>
+					
+				</div>	
+			</div>
+			
+		</div>
+		
+		<div id="dialoa2">
+			Tu nivel es inferior a A2.<br/><br/>
+			Pincha <a href="a2.html">aquí</a> para ir a la sección Nivel A2.
+		</div>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+﻿<html>
+	<head>
+		<title>DaF</title>
+		<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+		<link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />	
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+				
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		
+		<link rel="shortcut icon" href="imagenes/favi.ico">
+	</head>
+	
+	<body>
+	
+	<script type="text/javascript">
+			var x;
+			x=$(document);
+			x.ready(inicializar);
+			
+						
+			function inicializar ()	{
+				
+				var x;
+				x=$("#privpie");
+				x.click(mostrarPriv);
+										
+			}
+		
+					function mostrarPriv(){
+						var x;
+						x=$("#textoprivacidad");
+						x.dialog({modal:true, "title":"Política de privacidad y Aviso legal", "width": "800px", "height": "auto"});
+					}
+			
+	</script>
+	
+		<div id="contenedor">
+			<div id="cabecera">
+				<div id="cabecera2">
+					<div id="logo">
+						<a href="index.html"><img src="imagenes/logored.png"></img></a>
+					</div>
+					<div id="titulo">Deutsch als Fremdsprache</div>
+					<div id="botones">
+						 <ul class="navegacion">
+												
+							<li><a href="a2.html">A. 2</a></li>
+							
+						
+													
+							<li><a href="b1.html">B. 1</a></li>
+							
+							<li><a href="b2.html">B. 2</a></li>
+							
+						</ul>
+						<div id="barra1">|</div>
+						<div id="barra2">|</div>
+						
+						
+					</div>
+					
+					<div id="fb"><a href="https://www.facebook.com/dw.german?nr" target="_blank"><img src="imagenes/fb.png" title="Facebook Deutsche Welle"></a></div>
+					<div id="tw"><a href="https://twitter.com/DeutscheWelle" target="_blank"><img src="imagenes/tw.png" title="Twitter Deutsche Welle"></a></div>
+					<div id="yt"><a href="https://www.youtube.com/dwdeutsch" target="_blank"><img src="imagenes/yt.png" title="YouTube Deutsche Welle"></a></div>
+					
+					
+				</div>
+			</div>
+			
+			<div id="contenido">
+				
+			</div>
+			
+			<div id="pie">
+				<div id="pieazul">
+				<div id="logo2">
+						<img src="imagenes/logocua.png" style="width: 50px; height: 50px;"></img>
+				</div>
+					<p id="titpie">Deutsch als Fremdsprache | 2015</p>
+					<a href="contacto.php"><span id="contacto">Contacto</span></a>
+					<span id="privpie">Política de privacidad y Aviso legal</span>
+					<div id="textoprivacidad">
+						textopdp 
+					</div>
+				</div>	
+			</div>
+			
+		</div>
+	</body>
+</html>

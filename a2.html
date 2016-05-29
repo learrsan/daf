@@ -1,0 +1,656 @@
+﻿<html>
+	<head>
+		<title>Nivel A2</title>
+		<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+		<link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />	
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+				
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		
+		<link rel="shortcut icon" href="imagenes/favi.ico">
+	</head>
+	
+	<body>
+	
+	<script type="text/javascript">
+			var x;
+			x=$(document);
+			x.ready(inicializar);
+			
+						
+			function inicializar ()	{
+								
+				$(function() {
+					$( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+					$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+					});
+				
+				var x;
+				x=$("#privpie");
+				x.click(mostrarPriv);
+										
+			}
+		
+					function mostrarPriv(){
+						var x;
+						x=$("#textoprivacidad");
+						x.dialog({modal:true, "title":"Política de privacidad y Aviso legal", "width": "800px", "height": "auto"});
+					}
+			
+	</script>
+	
+		<div id="contenedor">
+			<div id="cabecera">
+				<div id="cabecera2">
+					<div id="logo">
+						<a href="index.html"><img src="imagenes/logored.png"></img></a>
+					</div>
+					<div id="titulo">Deutsch als Fremdsprache</div>
+					<div id="botones">
+						 <ul class="navegacion">
+												
+							<li><a href="a2.html">A. 2</a></li>
+							
+						
+													
+							<li><a href="b1.html">B. 1</a></li>
+							
+							<li><a href="b2.html">B. 2</a></li>
+							
+						</ul>
+						<div id="barra1">|</div>
+						<div id="barra2">|</div>
+						
+						
+					</div>
+					
+					<div id="fb"><a href="https://www.facebook.com/dw.german?nr" target="_blank"><img src="imagenes/fb.png" title="Facebook Deutsche Welle"></a></div>
+					<div id="tw"><a href="https://twitter.com/DeutscheWelle" target="_blank"><img src="imagenes/tw.png" title="Twitter Deutsche Welle"></a></div>
+					<div id="yt"><a href="https://www.youtube.com/dwdeutsch" target="_blank"><img src="imagenes/yt.png" title="YouTube Deutsche Welle"></a></div>
+					
+					
+				</div>
+			</div>
+			
+			<div id="contenido">
+				
+				<div id="tabs">
+				 <ul>
+					<li><a href="#tabs-11">Adjektivdeklination</a></li>
+					<li><a href="#tabs-5">Hauptsätze <br>Verbindung</a></li>
+					<li><a href="#tabs-3">Indirekte Fragen</a></li>
+					<li><a href="#tabs-10">Komparation</a></li>
+					<li><a href="#tabs-14">Konjunktiv</a></li>
+					<li><a href="#tabs-12">Modalverben</a></li>
+					<li><a href="#tabs-1">Nebensätze</a></li>
+					<li><a href="#tabs-13">Perfekt und <br/>Präteritum</a></li>
+					<li><a href="#tabs-7">Personalpronomen</a></li>
+					<li><a href="#tabs-6">Possessivartikel</a></li>
+					<li><a href="#tabs-8">Reflexivpronomen</a></li>
+					<li><a href="#tabs-4">Relativsätze</a></li>
+					<li><a href="#tabs-2">Temp. Nebensätze</a></li>
+					<li><a href="#tabs-9">Wechselpräposition</a></li>
+				</ul>
+				  
+				 
+				 <div id="tabs-1">
+					<h2>Nebensätze (<i>weil</i> und <i>dass</i>)</h2>
+					<div class="regel"><p>Im Nebensatz steht das Verb am Ende. <br/>Der Nebensatz beginnt mit <strong>weil</strong>, <strong>dass</strong>...</p></div>
+					<div class="regel"><p>Im Nebensatz mit Modalverb steht das Modalverb ganz am Ende.</p></div>
+					<div class="eklar">
+												
+						<div class="satzizq">
+							<h4>Hauptsatz</h4>
+							<p>Ich lerne Deutsch,</p>
+						</div>
+						<div class="satzder">
+							<h4>Nebensatz</h4>
+							<p><i>weil</i> es ein Schulfach <u>ist</u>.</p>
+						</div>
+						
+						<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Ich habe gesagt,</p>
+							</div>
+							<div class="satzder">
+								<h4>Nebensatz</h4>
+								<p><i>dass</i> wir morgen einen Ausflug <br/>machen <u>können</u>.</p>
+							</div>
+							
+												
+						<div class="frejemplo">
+							<p>-Wir haben heute frei, weil die Lehrerin krank ist.</p>
+							<p>-Glaubst du, dass ich die Hausaufgaben machen soll?</p>
+						</div>
+										
+					</div>
+					
+				  </div>
+					
+					
+					
+				<div id="tabs-2">
+					<h2>Temporale Nebensätze (<i>wenn</i> und <i>als</i>)</h2>
+						<div class="regel"><p><strong>Wenn</strong>: Einmaliges Geschehen in Gegenwart oder Zukunft oder wiederholtes Geschehen in Gegenwart, Zukunft oder Vergangenheit.</p></div>
+						<div class="regel"><p><strong>Als</strong>: einmaliges Geschehen in der Vergangenheit.</p></div><br/>
+						<div class="eklar">
+						
+							<div class="satzizq">
+								<h4>Nebensatz</h4>
+								<p><i>Wenn</i> das Essen fertig <u>ist</u>,</p>
+							</div>
+							<div class="satzder">
+								<h4>Hauptsatz</h4>
+								<p>rufe ich dich.</p>
+							</div>
+							<div class="satzizq">
+							<h4>Hauptsatz</h4>
+							<p>Ich konnte schon lesen,</p>
+						</div>
+						<div class="satzder">
+							<h4>Nebensatz</h4>
+							<p><i>als</i> ich 4 Jahre alt <u>war</u>.</p>
+						</div>
+						
+							<div class="frejemplo">
+								<p>Als ich ein Kind war, wollte ich viel Geld haben.
+								<p>Wenn ich Geld hätte, möchte ich die Welt sehen.</p>
+								
+							</div>
+											
+						</div>
+					</div>
+				 
+
+				 <div id="tabs-3">
+					<h2>Indirekte Fragen</h2>
+						<div class="regel"><p>Ja/nein Fragen: <strong>ob</strong></p></div>
+						<div class="regel"><p>Fragen mit Fragewort: <strong>wann</strong>, <strong>wo</strong>, <strong>woher</strong>...</p></div>
+						<div class="eklar">
+														
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Ich weiß nicht,</p>
+							</div>
+							<div class="satzder">
+								<h4>Nebensatz</h4>
+								<p><i>ob</i> ich am Wochenende frei <u>habe</u>.</p>
+							</div>
+							
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Können Sie mir sagen,</p>
+							</div>
+							<div class="satzder">
+								<h4>Nebensatz</h4>
+								<p><i>wo</i> ich <u>bin</u>?</p>
+							</div>
+							<div class="frejemplo">
+								<p>-Weißt du, ob sie morgen kommt?</p>
+								<p>-Ja! Kannst du ihr sagen, wie sie nach Hause gehen kann?</p>
+								
+							</div>
+											
+						</div>
+					</div>
+					
+					
+				 <div id="tabs-4">
+					<h2>Relativsätze</h2>
+					<div class="regel"><p>Der Relativsatz erklärt ein Nomen im Hauptsatz.</p></div>
+					<table class="tabla1">
+						<tr>
+						  <td><strong></strong></td>
+						  <th><strong>Maskulin</strong></th>
+						  <th><strong>Neutrum</strong></th>
+						  <th><strong>Femenin</strong></th>
+						  <th><strong>Plural</strong></th>
+						</tr>
+						 
+						<tr>
+						  <th>Nominativ</th>
+						  <td>der</td>
+						  <td>das</td>
+						  <td>die</td>
+						  <td>die</td>
+						</tr>
+						 
+						<tr>
+						  <th>Akkusativ</th>
+						  <td>den</td>
+						  <td>das</td>
+						  <td>die</td>
+						  <td>die</td>
+						</tr>
+						
+					</table>
+						
+						
+						<div class="eklar">
+														
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Das ist <u>der Lehrer</u>,</p>
+							</div>
+							<div class="satzder">
+								<h4>Nebensatz</h4>
+								<p><i>der</i> so gut Gedichte rezitieren kann.</p>
+							</div>
+							
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Wo ist <u>der Mann</u>,</p>
+							</div>
+							<div class="satzder">
+								<h4>Nebensatz</h4>
+								<p><i>den</i> du im Café gesehen hast?</p>
+							</div>
+							<div class="frejemplo">
+								<p>Das sind Christstollen, die man mit Korinthen macht. Das ist ein Kuchen, den man zu Weihnachten backt.</p>
+								
+								
+							</div>
+											
+						</div>
+					</div>
+				
+				<div id="tabs-5">
+					<h2>Hauptsätze verbinden: <i>aber</i>, <i>und</i>, <i>oder</i> und <i>denn</i></h2>
+						<div class="regel"><p>Nach <strong>aber</strong>, <strong>und</strong>, <strong>oder</strong> und <strong>denn</strong> folgt ein Hauptsatz.</p></div>
+						
+						<div class="eklar">
+														
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Ich will reisen,</p>
+							</div>
+							<div class="satzder">
+								<h4>Hauptsatz</h4>
+								<p><i>aber</i> ich habe keine Zeit.</p>
+							</div>
+							
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Ich wollte Artz werden,</p>
+							</div>
+							<div class="satzder">
+								<h4>Hauptsatz</h4>
+								<p><i>denn</i> mein Vater war auch Artz.</p>
+							</div>
+							
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Ich bin ins Kino gegangen</p>
+							</div>
+							<div class="satzder">
+								<h4>Hauptsatz</h4>
+								<p><i>und</i> ich habe einen Film gesehen.</p>
+							</div>
+							
+							<div class="satzizq">
+								<h4>Hauptsatz</h4>
+								<p>Willst du spazieren gehen</p>
+							</div>
+							<div class="satzder">
+								<h4>Hauptsatz</h4>
+								<p><i>oder</i> bleibst du zu Hause?</p>
+							</div>
+										
+						</div>
+				</div>
+				
+				
+				<div id="tabs-6">
+				<h2>Possessivartikel</h2>
+					<div class="regel"><p>mein- / dein- / sein- / ihr- / unser- / *eur- / ihr- / Ihr-</p></div>
+					<table class="tabla1">
+						<tr>
+						  <td><strong></strong></td>
+						  <th><strong>Maskulin</strong></th>
+						  <th><strong>Neutrum</strong></th>
+						  <th><strong>Femenin</strong></th>
+						  <th><strong>Plural</strong></th>
+						</tr>
+						 
+						<tr>
+						  <th>Nominativ</th>
+						  <td>-</td>
+						  <td>-</td>
+						  <td>-e</td>
+						  <td>-e</td>
+						</tr>
+						 
+						<tr>
+						  <th>Akkusativ</th>
+						  <td>-en</td>
+						  <td>-</td>
+						  <td>-e</td>
+						  <td>-e</td>
+						</tr>
+						
+						<tr>
+						  <th>Dativ</th>
+						  <td>-em</td>
+						  <td>-em</td>
+						  <td>-er</td>
+						  <td>-e</td>
+						</tr>
+						
+					</table>
+						
+						<div class="eklar">
+														
+							
+								<h4>Nominativ</h4>
+								<p>Mein<i>e</i> Schwester und ich gehen ins Kino.</p>
+							
+							
+							
+								<h4>Akkusativ</h4>
+								<p>Ich suche dein<i>en</i> Kuli.</p>
+						
+							
+							
+								<h4>Dativ</h4>
+								<p>Ich bin mit eur<i>em</i> Freunden.</p>
+							
+							
+								<h6>*Ohne Suffix -> euer</h6>
+															
+						</div>
+				</div>
+				
+				<div id="tabs-7">
+				<h2>Personalpronomen</h2>
+				<table class="tabla1">
+						<tr>
+						  <td><strong></strong></td>
+						  <th><strong>Nominativ</strong></th>
+						  <th><strong>Akkusativ</strong></th>
+						  <th><strong>Dativ</strong></th>
+						  
+						</tr>
+						 
+						<tr>
+						  <th>Singular</th>
+						  <td>ich</td>
+						  <td>mich</td>
+						  <td>mir</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  <td>du</td>
+						  <td>dich</td>
+						  <td>dir</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  <td>er</td>
+						  <td>ihn</td>
+						  <td>ihm</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  <td>es</td>
+						  <td>es</td>
+						  <td>ihm</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  <td>sie</td>
+						  <td>sie</td>
+						  <td>ihr</td>
+						</tr>
+
+						<tr>
+						  <th>Plural</th>
+						  <td>wir</td>
+						  <td>uns</td>
+						  <td>uns</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  <td>ihr</td>
+						  <td>euch</td>
+						  <td>euch</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  <td>sie/Sie</td>
+						  <td>sie/Sie</td>
+						  <td>ihnen/Ihnen</td>
+						</tr>
+						
+						
+					</table>
+					
+					<div class="eklar">
+														
+							
+							<div class="frejemplo">
+								<p>-Fährst du in die Stadt? Kannst du mich mitnehmen?</p>
+								<p>-Ja, du kannst mit mir bis zum Pariser-Platz fahren.</p>
+													
+							</div>
+											
+						</div>
+					
+				
+				
+				</div>
+				
+				<div id="tabs-8">
+				<h2>Reflexivpronomen im Akkusativ</h2>
+				<div class="regel"><p>Reflexivpronomen im Akkusativ = Personalpronomen im Akkusativ, außer in der 3. Person.</p></div>
+				<table class="tabla1">
+						<tr>
+						  <td><strong></strong></td>
+						  <th><strong>Reflexivpronomen im Akk</strong></th>
+						  
+						  
+						</tr>
+						 
+						<tr>
+							<th>Singular</th>
+							<td>mich</td>
+					 
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  
+						  <td>dich</td>
+						 
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  
+						  <td>sich</td>
+						 
+						</tr>
+						
+						<tr>
+						  <th></th>
+						 
+						  <td>sich</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  
+						  <td>sich</td>
+						</tr>
+
+						<tr>
+						  <th>Plural</th>
+						 
+						  <td>uns</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  
+						  <td>euch</td>
+						</tr>
+						
+						<tr>
+						  <th></th>
+						  
+						  <td>sich</td>
+						</tr>
+						
+						
+					</table>
+					
+					<div class="eklar">
+														
+							
+							<div class="frejemplo">
+								<p>-Interessierst du dich für Politik?</p>
+								<p>-Ja, aber ich ärgere mich über die Politiker.</p>
+													
+							</div>
+											
+						</div>
+					
+				
+				
+				</div>
+				
+				<div id="tabs-9">
+					<h2>Wechselpräpositionen</h2>
+						<div class="regel"><p>Wohin?: Wechselpräposition + Akkusativ<br/>Wo?: Wechselpräposition + Dativ</p></div>
+						<div class="eklar">
+							<img src="imagenes/wp.jpg" id="imgwp">
+							<div id="wpfrases">
+								<div class="satzizq">
+								<h4>Akkusativ</h4>
+									<i>-Wohin</i> stelle ich die Vase? <br/>-<u>In den</u> Schrank!
+								</div>
+								<div class="satzder">
+								<h4>Dativ</h4>
+									-<i>Wo</i> ist deine Schwester? <br/>-Sie liegt <u>auf dem</u> Sofa und liest.
+									
+								</div>
+								
+							</div>
+						
+						</div>
+						
+				
+				</div>
+				<div id="tabs-10"></div>
+				<div id="tabs-11">
+					<h2>Adjektivdeklination</h2>
+						<table class="tabla1">
+						<tr>
+						  <td><strong></strong></td>
+						  <th><strong>Nominativ</strong></th>
+						  <th><strong>Akkusativ</strong></th>
+						  <th><strong>Dativ</strong></th>
+						  
+						</tr>
+						 
+						<tr>
+						  <th>Maskulin</th>
+						  <td>der <i>-e</i></td>
+						  <td>den <i>-en</i></td>
+						  <td>dem <i>-en</i></td>
+						</tr>
+						<tr>
+						  <th></th>
+						  <td>ein <i>-er</i></td>
+						  <td>einen <i>-en</i></td>
+						  <td>einem <i>-en</i></td>
+						</tr>
+						
+						
+						<tr>
+						  <th>Neutrum</th>
+						  <td>das <i>-e</i></td>
+						  <td>das <i>-e</i></td>
+						  <td>dem <i>-en</i></td>
+						</tr>
+						<tr>
+						  <th></th>
+						  <td>ein <i>-es</i></td>
+						  <td>ein <i>-es</i></td>
+						  <td>einem <i>-en</i></td>
+						</tr>
+						
+						<tr>
+						  <th>Femenin</th>
+						  <td>die <i>-e</i></td>
+						  <td>die <i>-e</i></td>
+						  <td>der <i>-en</i></td>
+						</tr>
+						<tr>
+						  <th></th>
+						  <td>eine <i>-e</i></td>
+						  <td>eine <i>-e</i></td>
+						  <td>einer <i>-en</i></td>
+						</tr>
+						
+						<tr>
+						  <th>Plural</th>
+						  <td>die <i>-en</i></td>
+						  <td>die <i>-en</i></td>
+						  <td>den <i>-en</i></td>
+						</tr>
+						<tr>
+						  <th></th>
+						  <td>/ <i>-e</i></td>
+						  <td>/ <i>-e</i></td>
+						  <td>/ <i>-en</i></td>
+						</tr>
+								
+						
+					</table>
+					
+					
+								
+					<div id="adjdek">			
+						<i>Der</i> rot<i>e</i> Rock ist sehr schön.<br/><br/>
+						Ich will <i>ein</i> interessant<i>es</i> Buch kaufen.<br/><br/>
+						Wer ist die Frau mit <i>den</i> blond<i>en</i> Haaren?
+								
+							
+						
+					</div>		
+								
+								
+					
+				
+				</div>
+				<div id="tabs-12"></div>
+				<div id="tabs-13"></div>
+				<div id="tabs-14"></div>
+				
+			</div>
+			
+			<div id="pie">
+				<div id="pieazul">
+				<div id="logo2">
+						<img src="imagenes/logocua.png" style="width: 50px; height: 50px;"></img>
+				</div>
+					<p id="titpie">Deutsch als Fremdsprache | 2015</p>
+					<a href="contacto.php"><span id="contacto">Contacto</span></a>
+					<span id="privpie">Política de privacidad y Aviso legal</span>
+					<div id="textoprivacidad">
+						textopdp 
+					</div>
+				</div>	
+			</div>
+			
+		</div>
+	</body>
+</html>

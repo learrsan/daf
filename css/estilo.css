@@ -1,0 +1,725 @@
+﻿/* Azul claro: #89bae4
+Azul medio: #0e8ece
+Azul oscuro: #2c3a4c
+Naranja: #FF9900 */
+
+body
+{
+			margin:0;
+			font-family: 'Ubuntu', sans-serif;
+}
+#contenedor
+{
+		position: relative;
+}
+
+
+/* CABECERA */
+#cabecera
+{
+		position: absolute;
+		width: 100%;
+		height: 190px;
+		background-color: #2c3a4c;
+		margin: 0 0 0 0;
+		box-shadow: 5px 5px 5px grey;
+}
+#cabecera2
+{
+		margin: auto;
+		width: 1000px;
+		height: 180px;
+		background-color: #2c3a4c;
+		/* border-left: 1px solid white;
+		border-right: 1px solid white; */
+		
+}
+#logo
+{
+		margin-left: 10px;
+		margin-top: -10px;
+		position: absolute;
+		float: left;
+				
+}
+#titulo
+{
+		color: white;
+		height: 100x;
+		float: left; 
+		background-color: #2c3a4c;
+		position: absolute;
+		font-size: 50px;
+		margin-left: 230px;
+		margin-top: 20px;
+		font-family: 'Ubuntu', sans-serif;
+		
+		
+}
+
+/* MENÚ */
+#botones
+{
+		position: absolute;
+		width: 660px;
+		height: 80px;
+		background-color: #2c3a4c;
+		float: left;
+		margin-left: 220px;
+		margin-top: 100px;
+		
+}
+.navegacion
+{
+		padding:0px 10px;
+		margin:20px;
+}
+
+.navegacion a 
+{
+		text-decoration: none;
+				
+}
+.navegacion > li 
+{
+		float: left;
+		width: 200px;
+		height: 10px;
+		display: block;
+		font-size:19px;
+		
+             
+}
+.navegacion > li a 
+{
+		color: white;
+		width: 120px;
+		height: 30px;
+		padding: 5px;
+		display: block;
+		text-align: center; 
+		
+} 
+.navegacion li a:hover 
+{		
+		background-color: #89bae4;
+		color: #2c3a4c;
+		cursor: pointer;
+		cursor: hand;
+		/* font-size:25px; */
+		border-radius: 5px;
+		box-shadow: 5px 5px #FF9900;
+		font-weight: bold;
+				
+}
+#barra1
+{
+		color: white;
+		position: absolute;
+		font-size: 20px;
+		margin-left: 195px;
+		margin-top: 5px;
+		
+}
+#barra2
+{
+		color: white;
+		position: absolute;
+		font-size: 20px;
+		margin-left: 395px;
+		margin-top: 5px;
+		
+}
+
+
+/* REDES SOCIALES */
+
+#fb
+{
+		margin-left: 910px;
+		padding-top: 20px;
+}
+#fb a 
+{
+		text-decoration: none;
+				
+}
+
+#fb a:hover 
+{
+		cursor: pointer;
+		cursor: hand;
+		opacity: 0.7;
+		
+				
+}
+
+#tw
+{
+		margin-left: 910px;
+		padding-top: 10px;
+}
+#tw a 
+{
+		text-decoration: none;
+				
+}
+#tw a:hover 
+{
+		cursor: pointer;
+		cursor: hand;
+		opacity: 0.7;
+				
+}
+#yt
+{
+		margin-left: 910px;
+		padding-top: 10px;
+}
+#yt a 
+{
+		text-decoration: none;
+				
+}
+#yt a:hover 
+{
+		cursor: pointer;
+		cursor: hand;
+		opacity: 0.7;
+
+				
+}
+
+/* CONTENIDO */
+#contenido
+{
+		margin: auto;
+		padding-top: 400px;
+		width: 1000px;
+		height: 500px;
+		background-color: white;
+		/* border-left: 1px solid black;
+		border-right: 1px solid black; */
+		
+}
+
+
+/* INDEX */
+
+.imgind
+{
+		position: absolute;
+		width: 1000px;
+		margin-top: -180px;
+		opacity: 0.8;
+		
+		
+}
+#imgind1
+{
+		
+		display: none;
+}
+#imgind2
+{
+		
+		display: none;
+		
+}
+#imgind3
+{
+		display: none;
+}
+
+#menuind
+{
+		width: 1000px;
+		height: 650px;
+		background-color: white;
+		margin-top: -180px;
+		display: none;
+}
+#present
+{
+		opacity: 0.8;
+		position: relative;
+}
+#textind1
+{
+		color: #2c3a4c;
+		position: absolute;
+		margin-top: -600px;
+		margin-left: 40px;
+		font-size: 70px;
+}
+#textind2
+{
+		color: #2c3a4c;
+		position: absolute;
+		margin-top: -530px;
+		margin-left: 130px;
+		font-size: 65px;
+}
+#menua2
+{
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		background-color: #FF9900;
+		float: left;
+		margin-top: -650px;
+		margin-left: 600px;
+		
+}
+#menua2:hover
+{
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		background-color: #2c3a4c;
+		float: left;
+		margin-top: -650px;
+		margin-left: 600px;
+		opacity: 0.9;
+		cursor: pointer;
+		cursor: hand;
+}
+#menub1
+{
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		background-color: #FF9900;
+		float: left;
+		margin-top: -550px;
+		margin-left: 600px;
+}
+#menub1:hover
+{
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		background-color: #2c3a4c;
+		float: left;
+		margin-top: -550px;
+		margin-left: 600px;
+		opacity: 0.9;
+		cursor: pointer;
+		cursor: hand;
+}
+#menub2
+{
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		background-color: #FF9900;
+		float: left;
+		margin-top: -450px;
+		margin-left: 600px;
+		
+}
+#menub2:hover
+{
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		background-color: #2c3a4c;
+		float: left;
+		margin-top: -450px;
+		margin-left: 600px;
+		opacity: 0.9;
+		cursor: pointer;
+		cursor: hand;
+}
+.ubungen
+{
+		position: absolute;
+		color: white;
+		font-size: 40px;
+		margin-left: 170px;
+		margin-top: 20px;
+}
+#menuprueba
+{
+		position: absolute;
+		width: 400px;
+		height: 350px;
+		background-color: #2c3a4c;
+		float: left;
+		margin-top: -350px;
+		margin-left: 600px;
+}
+#pruf1
+{
+		position: absolute;
+		color: #89bae4;
+		font-size: 30px;
+		margin-top: 30px;
+		text-align: center;
+}
+#einstu
+{
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		background-color: #2c3a4c;
+		margin-top: 110px;
+		margin-left: 90px;
+}
+#einstu:hover
+{
+		position: absolute;
+		width: 230px;
+		height: 230px;
+		border-radius: 115px;
+		background-color: #2c3a4c;
+		opacity: 0.7;
+		margin-top: 110px;
+		margin-left: 90px;
+		cursor: pointer;
+		cursor: hand;
+		
+}
+#pruf2
+{
+		position: absolute;
+		color: white;
+		font-size: 35px;
+		margin-top: 30px;
+		margin-left: -10px;
+}
+#logein
+{
+		position: absolute;
+		margin-top: 75px;
+		margin-left: 50px;
+		
+}
+
+/* PRUEBA DE NIVEL */
+
+#pnivel
+{
+		position: absolute;
+		width: 940px;
+		/* height: 690px; */
+		/* background-color: grey; */
+		/* padding-top: 550px; */
+		margin-left: 30px;
+			
+}
+
+#pnivelp h1
+{
+		color: #2c3a4c;
+		font-size: 40px;
+		text-align: center;
+		margin-top: -600px;
+			
+}
+
+.btnpnivel
+{
+		width: 150px;
+		height: 40px;
+		background-color: #2c3a4c;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		margin: auto;
+		cursor: pointer;
+		cursor: hand;
+}
+.btnpnivel:hover
+{
+		width: 150px;
+		height: 40px;
+		background-color: #2c3a4c;
+		opacity: 0.7;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		margin: auto;
+		cursor: pointer;
+		cursor: hand;
+}
+
+.flechaizda
+{
+		position: absolute;
+		margin-top: 100px;
+}
+.flechaizda:hover
+{
+		position: absolute;
+		margin-top: 100px;
+		opacity: 0.7;
+		cursor: pointer;
+		cursor: hand;
+}
+.flechadcha
+{
+		position: absolute;
+		margin-left: 970px;
+		margin-top: 100px;
+}
+.flechadcha:hover
+{
+		position: absolute;
+		margin-left: 970px;
+		margin-top: 100px;
+		opacity: 0.7;
+		cursor: pointer;
+		cursor: hand;
+}
+#pnivel1
+{
+		display: none;
+}
+#a1lec
+{
+		position: absolute;
+		width: 940px;
+		/* height: 690px; */
+		/* background-color: grey; */
+		/* padding-top: 550px; */
+		margin-left: 30px;
+		margin-top: -200px;
+		text-align: justify;
+}
+#a1lec p
+{
+		font-size: 25px;
+		padding: 15px;
+}
+#pnivel2
+{
+		display: none;
+}
+#preg
+{
+		margin-left: 150px;
+		margin-top: 50px;
+		
+}
+.seclec
+{
+		margin-left: 15px;
+}
+
+#pnivel3
+{
+		display: none;
+}
+#preg3
+{
+		margin-left: 150px;
+		margin-top: 100px;
+}
+
+#pnivel4
+{
+		display: none;
+}
+#preg4
+{
+		margin-left: 300px;
+		margin-top: 30px;
+}
+#pnivel5
+{
+		display: none;
+}
+#pnivel6
+{
+		display: none;
+}
+
+#dialoa2
+{
+		display: none;
+}
+#b1lec p
+{
+		font-size: 23px;
+	
+}
+#pnivel7
+{
+		display: none;
+}
+
+
+/* TEORIA */
+
+#tabs
+{
+		margin-top: -200px;
+		height: 685px;
+		position: relative;
+}
+#tabs h2
+{
+		background-color: #2c3a4c;
+		height: 40px;
+		color: white;
+		text-align: center;
+	
+}
+
+.ui-tabs-vertical { width: 990px; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 2px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+
+
+
+/* A2 */
+
+.regel
+{
+	background-color: #89bae4;
+	color: #2c3a4c;
+	text-align: center;
+	font-size: 23px;
+	width: 650px;
+	margin: auto;
+	
+}
+.eklar
+{
+	
+	text-align: justify;
+	/* font-size: 23px; */
+	width: 650px;
+	margin: auto;
+}
+.eklar h6
+{
+	
+	float: right;
+}
+.satzizq
+{
+	float: left;
+	width: 320px;
+	
+}
+.satzder
+{
+	
+	float: left;
+	width: 330px;
+	
+}
+.frejemplo
+{
+	float: left;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: -30px;
+	text-align: justify;
+	background-color: #FF9900;
+	width: 690px;
+	padding: 8px;
+}
+.tabla1
+{
+	
+	background-color: #89bae4;
+	color: #2c3a4c;
+	text-align: center;
+	font-size: 23px;
+	width: 650px;
+	margin: auto;
+}
+#imgwp
+{
+	margin-left: 150px;
+	
+}
+#adjdek
+{
+	float: left;
+	font-size: 25px;
+	margin-top: 20px;
+	
+	text-align: justify;
+	width: 690px;
+	padding: 8px;
+}
+
+
+
+/* PIE */
+#pie
+{
+		
+		width: 100%;
+		height:60px;
+		background-color: white;
+		
+		
+}
+#pieazul
+{
+		
+		width: 1000px;
+		height:60px;
+		background-color: #2c3a4c;
+		margin: auto;
+		
+}
+#logo2
+{
+		position: absolute;
+		margin-left: 20px;
+		margin-top: 5px;
+		float: left;
+		opacity: 0.5;
+}
+#titpie
+{
+		color: white;
+		float: left;
+		margin-left: 80px;
+		font-size: 19px;
+		opacity: 0.5;
+		
+}
+#privpie
+{
+		color: white;
+		float: right;
+		margin-right: 30px;
+		margin-top: 20px;
+		opacity: 0.5;
+		cursor: pointer;
+		cursor: hand;
+		
+}
+#contacto
+{
+		color: white;
+		float: right;
+		margin-right: 30px;
+		margin-top: 17px;
+		opacity: 0.5;
+		cursor: pointer;
+		cursor: hand;
+		font-size: 20px;
+		
+}
+#textoprivacidad
+{
+		display: none;
+						
+}
+
+
